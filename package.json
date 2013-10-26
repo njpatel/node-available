@@ -1,20 +1,21 @@
 {
-  "name": "node-404",
+  "name": "node-available",
   "version": "0.0.1",
   "description": "Detects if a url is still available via both 404 and soft-404 checking.",
-  "author": "Neil Jagdish Patel <neil@ayatii.com>",
+  "author": "Neil Jagdish Patel <neil@ayatii.com> (http://ayatii.com)",
+  "homepage": "https://github.com/ayatii/node-404",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/ayatii/node-404/issues"
+    "url": "https://github.com/ayatii/node-available/issues"
   },
-  "main": "index.js",
+  "main": "lib/available.js",
   "dependencies": {
     "difflib": "0.2.x",
     "request": "2.x.x",
     "URIjs":"1.x.x"
   },
   "devDependencies": { 
-    "mocha": ">= 1.0.1",
+    "mocha": ">= 1.13.0",
     "should": ">= 0.6.0"
   },
   "directories": {
@@ -25,9 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ayatii/node-404.git"
+    "url": "git://github.com/ayatii/node-available.git"
   },
   "keywords": [
+    "available",
     "404",
     "soft-404",
     "unavailable",
